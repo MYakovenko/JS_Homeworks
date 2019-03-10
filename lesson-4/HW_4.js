@@ -11,7 +11,10 @@ var handbag = {
                         item ? delete this[item] : console.log('Недопустимый тип данных');
         },
         addItem: function (item, value) {
-                        item ? this[item] = value : console.log('Недопустимый тип данных');  
+                !item ? console.log('Недопустимый тип данных'):
+                        item === 'money' ? this.money += value : 
+                        item === 'cosmetics' ? this.cosmetics.push(value):
+                        this[item] = value;  
         }
 }
 
