@@ -68,10 +68,10 @@ function clickHandler ( event ) {
                 .appendChild (document.createElement('div'))
 
         elem.innerText = tag
-		elem.title = tag
+        elem.title = tag
         elem.style = `
-			width: ${300 - index * 50}px;
-			height: ${300 - index * 50}px;
+            width: ${300 - index * 50}px;
+            height: ${300 - index * 50}px;
         	background-color: #ff00ff50;
         	border: dotted 1px yellow;
         	text-align: center;
