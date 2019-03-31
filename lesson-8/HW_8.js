@@ -24,8 +24,8 @@ for (var i = 0; i < 100; i++) {
 	(function (num) {
 		return function () {
 			setTimeout(
-            	() => clock.innerText = new Date().toLocaleString().split(", ")[1], 
-            	1000*num
+				() => clock.innerText = new Date().toLocaleString().split(", ")[1], 
+				1000*num
 			)
 		}
 	})(i)()
@@ -46,7 +46,7 @@ var typeMessage = ( function ( velocity ) {
    
 	return function ( message ) {
 		var num = index
-    	setTimeout(
+		setTimeout(
 			() => container.textContent += message[num],
 			1000 * num * velocity
 		)
