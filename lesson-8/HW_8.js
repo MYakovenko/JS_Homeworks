@@ -76,7 +76,7 @@ function User ( name ) {
 User.prototype.counter = (function (){
 	var counter = 0
 	return function () {
-		return typeof (this.id) === 'number' ? this.id : counter += 1
+		return typeof this.id === 'number' ? this.id : counter += 1
 	}
 })()
 
