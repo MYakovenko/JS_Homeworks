@@ -53,17 +53,17 @@ var users = (
         return {
             setUserPresent ( userName, present ) {
                 users.find (
-					user => user.name !== userName ? null :
-						!present ? null : user.present = true
-				)
+                    user => user.name !== userName ? null :
+                        !present ? null : user.present = true
+                )
             },
             showPresent () {
-				return users.filter(user => user.present)
-					.map(presentUser => presentUser.name)
+                return users.filter(user => user.present)
+                    .map(presentUser => presentUser.name)
             },
             showAbsent () {
-				return users.filter(user => !user.present)
-					.map(absentUser => absentUser.name)
+                return users.filter(user => !user.present)
+                    .map(absentUser => absentUser.name)
             }
         }
     }
