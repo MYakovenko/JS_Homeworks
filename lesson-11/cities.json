@@ -1,0 +1,22 @@
+[
+    {
+       "title": "Singapore",
+       "ref" : "https://cdn.cnn.com/cnnnext/dam/assets/150806121501-sg-50---lead-image-super-169.jpg"
+    },
+    {
+       "title": "Seoul",
+       "ref" : "https://www.accessmba.com/application/public/cache/event-seoul-620x370.jpg"
+    },
+    {
+       "title": "Amsterdam",
+       "ref" : "https://cdn.flixbus.de/2017-11/amsterdam-header.jpg"
+    },
+    {
+       "title": "Paris",
+       "ref" : "http://www.goawayparis.com/wp-content/uploads/cache-1a0bf496c2aa0055c296f0f3a7cf3fe8/2013/07/Eiffel-Tower-Paris-France-Autumn.jpg"
+    },
+    {
+       "title": "Montreal",
+       "ref" : "https://media-cdn.tripadvisor.com/media/photo-s/03/9b/2f/df/montreal.jpg"
+    }
+]
